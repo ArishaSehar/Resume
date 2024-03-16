@@ -1,0 +1,50 @@
+/* background styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: center;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+    
+}
+
+.container .left_side {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+    
+}
+
+.container .right_side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.imgbx {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background: url(assets/WhatsApp\ Image\ 2024-03-07\ at\ 11.53.34_65477aed.jpg) no-repeat center;
+    background-size: cover;
+}
